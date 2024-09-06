@@ -25,8 +25,7 @@ let snake = [
 
 window.addEventListener("keydown",changeDirection);
 resetBtn.addEventListener("click",resetGame);
-gameStart();
-
+gameStart(0);
 
 function gameStart(){
     running=true;
@@ -147,7 +146,7 @@ function resetGame(){
     score = 0;
     xVelocity = unitSize;
     yVelocity = 0;
-    let snake = [
+    snake = [
         {x:unitSize * 4,y:0},
         {x:unitSize * 3,y:0},
         {x:unitSize * 2,y:0},
@@ -156,4 +155,3 @@ function resetGame(){
     ];
     gameStart();
 }
-
