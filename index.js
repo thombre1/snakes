@@ -139,7 +139,7 @@ function displayGameOver(){
     ctx.font = "50px Times New Roman";
     ctx.fillStyle="black";
     ctx.textAlign="center";
-    ctx.fillText("तू हरलास",gameWidth/2,gameHeight/2);
+    ctx.fillText("GAME OVER⚔️",gameWidth/2,gameHeight/2);
     running=false;
 }
 function resetGame(){
